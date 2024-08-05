@@ -22,7 +22,7 @@ sections.forEach(section => {
   let rgbFilter = new PIXI.filters.RGBSplitFilter([0, 0], [0, 0], [0, 0])
 
   const loader = new PIXI.loaders.Loader()
-  loader.add("displacement", "/assets/displacement1.jpg")
+  loader.add("displacement", "assets/displacement1.jpg")
   loader.add("image", originalImageSource)
 
   loader.load((loader, resources) => {
